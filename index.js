@@ -61,7 +61,7 @@ const connectToWhatsApp = async() => {
                     }
                 }
             } catch (e) {
-                console.log('Error while requested pairing code: ' + e);
+                console.log('Error while requesting pairing code: ' + e);
             } finally {
                 rl.close();
             }
